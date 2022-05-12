@@ -12,8 +12,6 @@ jobs:
     steps:
     - name: Use Node.js
       uses: actions/setup-node@v4
-        with:
-          node-version: '16.x'
 
     # access to the repository code
     -uses: actions/checkout@v2
@@ -34,8 +32,6 @@ jobs:
     steps:
     - name: Use Node.js
       uses: actions/setup-node@v4
-        with:
-          node-version: '16.x'
 
     - uses: actions/checkout@v2
 
