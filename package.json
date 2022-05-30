@@ -3,10 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "npm install && ng run serve:ssr",
-    "build": "ng build",
-    "build:prod": "ng build --configuration production",
-    "heroku-postbuild": "ng build --configuration production",
+    "start": "npm run serve:ssr",
+    "heroku-postbuild": "npm run build:ssr",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "test:ci": "ng test --configuration=ci",
